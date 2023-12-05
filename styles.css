@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.RecipieCard{
+    width: 400px;
+    height: 400px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: cornsilk;
+}
+
+
+
+.RecipieCard_title{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.RecipieCard_image{
+    width: 100%;
+    height: auto
+}
+
+.RecipieCard_content{
+    padding: 10px
+}
+
+.RecipieCard_description{
+    text-align: center;
+}
