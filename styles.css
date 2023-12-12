@@ -40,7 +40,18 @@ a{
     margin-bottom: 50px;
 }
 
+.HomePage_row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
 
+.HomePage_content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 
 .RecipieCard_root{
     display: flex;
@@ -60,7 +71,8 @@ a{
 .RecipieCard_title{
     text-align: center;
     margin: 0;
-    color: var(--primary)
+    color: var(--primary);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .RecipieCard_image{
@@ -103,6 +115,7 @@ a{
 .Navbar_name{
     color:var(--primary);
     font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .Navbar_buttons{
@@ -121,6 +134,7 @@ a{
     display: flex;
     flex-direction: column;
     font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .Navbar_button:hover{
